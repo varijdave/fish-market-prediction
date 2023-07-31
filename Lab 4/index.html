@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fish Market Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fish Market Prediction</h1>
+        <div class="input-container">
+            <label for="length">Length (cm):</label>
+            <input type="text" id="length">
+        </div>
+        <div class="input-container">
+            <label for="width">Width (cm):</label>
+            <input type="text" id="width">
+        </div>
+        <!-- Add more input fields here if needed -->
+
+        <button onclick="predict()">Predict</button>
+
+        <div id="result-container">
+            <p id="prediction-result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
